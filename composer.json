@@ -1,0 +1,22 @@
+{
+    "name": "unkodero/firstposter",
+    "description": "Poste first comment to new posts.",
+    "require": {
+        "symfony/console": "^3.0",
+        "getjump/vk": "^0.5.0",
+        "morris/microdb": "^0.1.0",
+        "react/event-loop": "^0.4.2"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "unkodero",
+            "email": "hello@unkodero.ml"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "App\\": "app" 
+        }
+    }    
+}
